@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#particles-js
+{
+  height: 100%;
+  background: rgb(0, 0, 0);
+}
+
+.navbar
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+    transform: translateX(1105px);
+}
+nav
+{
+    position: relative;
+    flex: 1;
+    text-align: right;
+    z-index: 1;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+    z-index: 1;
+}
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 30px;
+    z-index: 1;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.current
+{
+    background: rgb(153, 152, 152);
+    border-radius: 10px;
+    padding: 10px
+}
+
+.wrapper
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 550px;
+  width: 100%;
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.wrapper h2
+{
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field
+{
+  margin-bottom: 20px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea
+{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea
+{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]
+{
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #face1d;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#error_message
+{
+  margin-bottom: 20px;
+  background: #ff0008;
+  padding: 0px;
+  text-align: center;
+  font-size: 12px;
+  transition: all 0.1s ease;
+}
+.social{
+  position: absolute;
+	display: flex;
+	flex-direction: row;
+  padding: 15px;
+  transform: translateY(-10px);
+  left: 40%;
+}
+.social a:hover{
+  transform: scale(1.1);
+	transition: all ease 0.3s;
+}
